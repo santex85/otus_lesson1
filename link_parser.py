@@ -57,14 +57,12 @@ if __name__ == '__main__':
         with open('result.txt', 'w') as file:
             for link in links:
                 file.write(f'{link}\n')
-                print('Ваш результат сохранен!')
+            print('Ваш результат сохранен!')
 
     if save == 2:
         print('Ваш результат:')
         for link in links:
             print(link)
-    else:
-        print('Ответ должен быть 1 или 2. Ваш ответ не будет сохранен и не напечатан!')
 
     print('------------------------------------------------')
     print('Вывод ссылок из результата:')
